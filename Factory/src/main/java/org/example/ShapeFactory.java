@@ -1,17 +1,15 @@
 package org.example;
 
 public class ShapeFactory {
-    public Shape getShape(String shapeType){
-        if(shapeType == null){
+    public Food getFood(String shape){
+        if(shape==null){
             return null;
-        }else if(shapeType == "CIRCLE"){
-            return new Circle();
-        }else if(shapeType == "RECTANGLE"){
-            return new Rectangle();
-        }else if(shapeType == "SQUARE"){
-            return new Square();
         }
 
-        return null;
+        switch (shape){
+            case "Round" : return new Pizza();
+            case "Cylindrical" : return new Roles();
+            default:throw new IllegalArgumentException("Not a valid shape");
+        }
     }
 }
