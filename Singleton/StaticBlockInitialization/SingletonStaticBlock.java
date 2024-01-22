@@ -7,7 +7,13 @@ public class SingletonStaticBlock{
   // It is executed before main method at the time of classloading.
   //It executed only once
   static {
-    staticBlockInstance = new SingletonStaticBlock();
+    //samahara welwta me initialize eka complex wenna puluwn
+    try {
+      staticBlockInstance = new SingletonStaticBlock();
+    } catch (Exception e) {
+      // TODO: handle exception
+      
+    }
   }
 
   //private constructor to avoid client applications to use constructor

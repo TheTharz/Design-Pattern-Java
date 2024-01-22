@@ -8,3 +8,7 @@ public class SingletonEager {
     return eagerInstance;
   }
 }
+
+//logging
+//network manager
+//database access point
