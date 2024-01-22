@@ -1,5 +1,5 @@
 package org.example;
-
+//database eken ena data
 public class DatabaseData {
     public int position;
     public int amount;

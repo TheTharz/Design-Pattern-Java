@@ -1,5 +1,6 @@
 package org.example;
 
+//display karanna oni data
 public class DisplayData3rdParty {
     public float index;
     public String data;
