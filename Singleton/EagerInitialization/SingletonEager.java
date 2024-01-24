@@ -9,6 +9,10 @@ public class SingletonEager {
   }
 }
 
+
+// --use cases--
+
 //logging
 //network manager
 //database access point
+//
