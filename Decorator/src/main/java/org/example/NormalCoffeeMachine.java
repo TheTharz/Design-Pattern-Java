@@ -1,5 +1,6 @@
 package org.example;
 
+//interface eken implement kara coffemachine
 public class NormalCoffeeMachine implements CoffeeMachine{
     @Override
     public void makeSmallCoffee() {
