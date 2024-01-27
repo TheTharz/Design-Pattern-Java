@@ -16,7 +16,7 @@ public class Client {
 
         //bedanna oni nm
         context = new Context(new OperationDivision());
-        System.out.println("10 / 5 = " + context.executeStrategy(10, 5));
+        System.out.println("10 / 2 = " + context.executeStrategy(10, 3));
     }
 }
 
